@@ -38,6 +38,7 @@ module.exports = function (ctx) {
         'QItem',
         'QItemSection',
         'QItemLabel',
+        'QSlideItem',
 
         'QCard',
         'QCardSection',
@@ -51,7 +52,10 @@ module.exports = function (ctx) {
         'QItemSection',
         'QItemLabel',
         'QBtnGroup',
-        'QDialog'
+        'QDialog',
+        'QCheckbox',
+        'QPageSticky',
+        'QTooltip'
       ],
 
       directives: [

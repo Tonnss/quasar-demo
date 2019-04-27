@@ -2,11 +2,6 @@
   <q-page class="flex flex-center">
     <!-- <h1>{{ message }}</h1> -->
 
-    <q-input v-model="num1" />
-    <q-input v-model="num2" />
-
-    {{ addition }}
-
     <!-- <div class="q-pa-md">
       <div class="row">
         <div class="col">
