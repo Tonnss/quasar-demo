@@ -134,6 +134,7 @@ export default {
       }
     },
     onAddForm () {
+      this.resetForm()
       this.show.form = true
     },
     onDeleteDialog (index) {
@@ -207,6 +208,7 @@ export default {
       })
     },
     resetForm () {
+      this.is_edit_mode = false
       this.form = {
         task: '',
         description: '',
