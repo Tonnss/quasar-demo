@@ -127,7 +127,13 @@ export default {
 
         this.$q.notify({
           message: 'Task Added!',
-          color: 'positive'
+          color: 'positive',
+          position: 'bottom-right',
+          timeout: 3000,
+          actions: [{
+            icon: 'check',
+            color: 'white'
+          }]
         })
 
         this.resetForm()
@@ -167,7 +173,13 @@ export default {
         this.show.delete_form = false
         this.$q.notify({
           message: 'Task Deleted!',
-          color: 'negative'
+          color: 'negative',
+          position: 'bottom-right',
+          timeout: 3000,
+          actions: [{
+            icon: 'delete_outline',
+            color: 'white'
+          }]
         })
       }
     },
@@ -204,7 +216,13 @@ export default {
 
       this.$q.notify({
         message: 'Task Updated!',
-        color: 'positive'
+        color: 'positive',
+        position: 'bottom-right',
+        timeout: 3000,
+        actions: [{
+          icon: 'check',
+          color: 'white'
+        }]
       })
     },
     resetForm () {
